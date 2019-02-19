@@ -5,10 +5,10 @@
   version="2.2">
   
 
-<!-- JPA implementation specific settings - Development purposes only -->
-<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/database?useSSL=false" />
-<property name="javax.persistence.jdbc.user" value="root" />
-<property name="javax.persistence.sql-load-script-source" value="META-INF/repo/db/sql/dpt617.sql" />
+  <!-- JPA implementation specific settings - Development purposes only -->
+  <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+  <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/database?useSSL=false" />
+  <property name="javax.persistence.jdbc.user" value="root" />
+  <property name="javax.persistence.sql-load-script-source" value="META-INF/repo/db/sql/dpt617.sql" />
 
- </persistence>
+</persistence>
