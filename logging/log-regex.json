@@ -26,7 +26,6 @@
 				// [ "begin regex", "end regex" ] or [ "match regex", "" ]
 				[ "^Warning-\\[", "^\\s*[\\n]" ],            // Warning-[ ~ next empty line (multi-line)
 				[ "^.*\\[WARNING\\]",  "[\\r\\n]" ],				// [WARNING].....(single line)
-				[ "^.*\\[WARN\\]",  "[\\r\\n]" ]						// [WARN]........(single line)
 			],
 			"color" : {
 				"base"  : "#FFDC00", // (yellow) warning message
