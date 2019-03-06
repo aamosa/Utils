@@ -1,5 +1,4 @@
 //---------------------------------------------Severity Level Log Settings
-   
    "severity" : {
    
       //---------------------------------------Info 
@@ -8,29 +7,29 @@
          "summary" : false,
          "pattern" : [
             // [ "begin regex", "end regex" ] or [ "match regex", "" ]
-            [ "^Info-\\[", "^\\s*[\\n]" ],                  // Info-[ ~ next empty line (multi-line)
-            [ "^.*\\[INFO\\]",  "[\\r\\n]"]              // [INFO] ... (single line)
+            [ "^Info-\\[", "^\\s*[\\n]" ],           // Info-[ ~ next empty line (multi-line)
+            [ "^.*\\[INFO\\]",  "[\\r\\n]"]          // [INFO] ... (single line)
          ],
          "color" : {
             "base"  : "#39CCCC",       // (teal) info message
-            "link"  : "#b36915",       // link in info message
-            "quote" : "#428a99"        // quote in info message
+            "link"  : "#b36915",       // 
+            "quote" : "#428a99"        // 
          },
       },
 
-      //---------------------------------------Warning 
+      //--------------------------------------Warning 
       "warning" : {
          "enable"  : true,
          "summary" : true,
          "pattern" : [
             // [ "begin regex", "end regex" ] or [ "match regex", "" ]
-            [ "^Warning-\\[", "^\\s*[\\n]" ],            // Warning-[ ~ next empty line (multi-line)
-            [ "^.*\\[WARNING\\]",  "[\\r\\n]" ],            // [WARNING].....(single line)
+            [ "^Warning-\\[", "^\\s*[\\n]" ],          // Warning-[ ~ next empty line (multi-line)
+            [ "^.*\\[WARNING\\]",  "[\\r\\n]" ],       // [WARNING].....(single line)
          ],
          "color" : {
             "base"  : "#FFDC00", // (yellow) warning message
-            "link"  : "#FD971F", // link in warning message
-            "quote" : "#4F99D3"  // quote in warning message
+            "link"  : "#FD971F", // 
+            "quote" : "#4F99D3"  // 
          },
       },
 
@@ -40,13 +39,13 @@
          "summary" : true,
          "pattern" : [
             // [ "begin regex", "end regex" ] or [ "match regex", "" ]
-            [ "^Error-\\[", "^\\s*[\\n]" ],               // Error-[ ~ next empty line (multi-line)
-            [ "^.*\\[ERROR\\]",  "[\\r\\n]" ]                     // [ERROR] ... (single line)
+            [ "^Error-\\[", "^\\s*[\\n]" ],            // Error-[ ~ next empty line (multi-line)
+            [ "^.*\\[ERROR\\]",  "[\\r\\n]" ]          // [ERROR] (single line)
          ],
          "color" : {
             "base"  : "#FF851B", // (orange) info message
-            "link"  : "#E6DB74", // link in error message
-            "quote" : "#4F99D3"  // quote in error message
+            "link"  : "#E6DB74", 
+            "quote" : "#4F99D3"  
          },
       },
 
@@ -57,12 +56,12 @@
          "pattern" : [
             // [ "begin regex", "end regex" ] or [ "match regex", "" ]
             [ "^Severe-\\[", "^\\s*[\\n]" ],            // Severe-[ ~ next empty line (multi-line)
-            [ "^.*\\[SEVERE\\]",  "[\\r\\n]" ]              // [SEVERE] ... (single line)
+            [ "^.*\\[SEVERE\\]",  "[\\r\\n]" ]          // [SEVERE] ... (single line)
          ],
          "color" : {
             "base"  : "#FF4500", // (orange) warning message
-            "link"  : "#cc0000", // link in info message
-            "quote" : "#428a99"  // quote in info message
+            "link"  : "#cc0000", 
+            "quote" : "#428a99"  
          },
       },
 
@@ -77,8 +76,8 @@
          ],
          "color" : {
             "base"  : "#FF0000",    // (red) info message
-            "link"  : "#FF0000",    // link in info message
-            "quote" : "#FF0000"     // quote in info message
+            "link"  : "#FF0000",   
+            "quote" : "#FF0000"    
          },
       }
    },
