@@ -1,6 +1,5 @@
 //---------------------------------------------Severity Level Log Settings
    "severity" : {
-   
       //---------------------------------------Info 
       "info" : {
          "enable"  : true,
@@ -22,7 +21,6 @@
          "enable"  : true,
          "summary" : true,
          "pattern" : [
-            // [ "begin regex", "end regex" ] or [ "match regex", "" ]
             [ "^Warning-\\[", "^\\s*[\\n]" ],          // Warning-[ ~ next empty line (multi-line)
             [ "^.*\\[WARNING\\]",  "[\\r\\n]" ],       // [WARNING].....(single line)
          ],
@@ -38,7 +36,6 @@
          "enable"  : true,
          "summary" : true,
          "pattern" : [
-            // [ "begin regex", "end regex" ] or [ "match regex", "" ]
             [ "^Error-\\[", "^\\s*[\\n]" ],            // Error-[ ~ next empty line (multi-line)
             [ "^.*\\[ERROR\\]",  "[\\r\\n]" ]          // [ERROR] (single line)
          ],
@@ -54,7 +51,6 @@
          "enable"  : true,
          "summary" : true,
          "pattern" : [
-            // [ "begin regex", "end regex" ] or [ "match regex", "" ]
             [ "^Severe-\\[", "^\\s*[\\n]" ],            // Severe-[ ~ next empty line (multi-line)
             [ "^.*\\[SEVERE\\]",  "[\\r\\n]" ]          // [SEVERE] ... (single line)
          ],
@@ -70,7 +66,6 @@
          "enable"  : true,
          "summary" : true,
          "pattern" : [
-            // [ "begin regex", "end regex" ] or [ "match regex", "" ]
             [ "^Fatal-\\[", "^\\s*[\\n]" ],            // Fatal-[ ~ next empty line (multi-line)
             [ "^.*\\[FATAL\\]", "[\\r\\n]" ]           // [FATAL] (single line)
          ],
